@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>This is Fifteenth tutorial</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+
+    form{
+        width: 30%;
+        padding: 1rem;
+        margin: auto;
+        background-color: black;
+        color: cyan;
+        font-size: 1rem;
+        margin-top: 5rem;
+    }
+
+    input[type="text"], input[type="password"]{
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin: auto;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+    }
+
+    input[type="submit"], input[type="reset"]{
+        width: 42%;
+        /* padding-left: 1rem;
+        padding-right: 1rem; */
+        margin: 1rem;
+        font-size: 1rem;
+        background-color: black;
+        color: aqua;
+    }
+
+    textarea{
+        background: black;
+        width: 100%;
+        font-size: 1rem;
+        margin: auto;
+        color: cyan;
+    }
+
+    ::placeholder{
+        color: cyan;
+        opacity: 0.5;
+    }
+</style>
+<body>
+    <form action="./First.html">
+        First Name:<br> 
+        <input type="text" placeholder="First Name"><br>
+        Last Name:<br> 
+        <input type="text" placeholder="Last Name"><br>
+        Email:<br> 
+        <input type="text" placeholder="Email"><br>
+        Password:<br>
+        <input type="password" placeholder="Password"><br><br>
+        <textarea cols="30" rows="10" placeholder="write query"></textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

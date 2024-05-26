@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>This is Tirty Tutorial</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" name="Name" placeholder="Enter your Name" required size="30" maxlength="15"><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="Email" placeholder="Enter your Email" required><br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter your Password" required><br><br>
+        <label for="City">City</label>
+        <input list="City">
+        <datalist id="City">
+            <option value="London">
+            <option value="Honkong">
+            <option value="Huwai">
+        </datalist><br></br>
+        <label for="date">Date</label>
+        <input type="date" name="date" required><br><br>
+        <label for="DateTimeLocal">Date & Time Local</label>
+        <input type="datetime-local" name="datetime-local" required><br><br>
+        <label for="month">month</label>
+        <input type="month" name="month" required><br><br>
+        <label for="number">Number</label>
+        <input type="number" name="number" size="5" step="2" required><br><br>
+        <label for="range">Range</label>
+        <input type="range" name="range" required><br><br>
+        <label for="search">Search</label>
+        <input type="search" name="search" readonly value="This text is readonly" required><br></br>
+        <label for="tel">Tel</label>
+        <input type="tel" name="tel" required><br></br>
+        <label for="time">Time</label>
+        <input type="Time" name="Time" required><br></br>
+        <label for="Url">Url</label>
+        <input type="url" name="url" required><br></br>
+        <label for="week">Week</label>
+        <input type="week" name="week" required><br></br>
+        <label for="DateTime">DateTime</label>
+        <input type="datetime" name="DateTime" required><br><br>
+        <label for="Color">Color</label>
+        <input type="color" name="Color" required><br></br>
+        <label for="File">File</label>
+        <input type="File" name="File" accept="Image/*" multiple required><br></br>
+        <label for="File">File</label>
+        <input type="File" name="File" accept="audio/*" multiple required><br></br>
+        <label for="File">File</label>
+        <input type="File" name="File" accept=".pdf" multiple required><br></br>
+        <label for="Hidden">Hidden</label>
+        <input type="hidden" name="Hidden" required><br></br>
+        <label for="Image">Image</label>
+        <input type="Image" name="Image" src="./App_Development.png" width="100px" required><br></br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="Gender" required>Male
+        <input type="radio" name="Gender">Female
+        <input type="radio" name="Gender">Other <br></br>
+        <label for="Fruits">Fruits</label>
+        <input type="checkbox" name="Fruits" checked>Mango
+        <input type="checkbox" name="Fruits">Banana
+        <input type="checkbox" name="Fruits">Kev
+        <input type="checkbox" name="Fruits">Graps <br></br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset" accesskey="r">
+    </form>
+</body>
+</html>
